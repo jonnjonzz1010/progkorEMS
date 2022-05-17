@@ -12,7 +12,7 @@
 	<artifactId>employeeCatalog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employeeCatalog</name>
-	<description></description>
+	<description>Employee catalog application</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -46,6 +46,11 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
 			<version>3.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.6.3</version>
 		</dependency>
 
 	</dependencies>
@@ -91,6 +96,7 @@
 						<exclude>hu\nye\progkor\employee\employeeCatalog\model\**</exclude>
 						<exclude>hu\nye\progkor\employee\employeeCatalog\EmployeeCatalogApplication.class</exclude>
 						<exclude>hu\nye\progkor\employee\employeeCatalog\EmployeeCatalogService.class</exclude>
+
 
 						<exclude>*Test</exclude>
 					</excludes>
